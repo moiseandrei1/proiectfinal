@@ -8,5 +8,6 @@ int main() {
     std::cin >> suma2 >> miza2;
     Joc a(suma2, miza2);
     a.jocul();
+
     return 0;
 }
