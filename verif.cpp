@@ -6,8 +6,8 @@
 #include <iostream>
 #include <utility>
 using namespace std;
-verif::verif(string a){
-    this->a = std::move(a);
+verif::verif(string str){
+    this->a = std::move(str);
 }
 string verif::verificare()
 {
