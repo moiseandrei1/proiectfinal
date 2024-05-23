@@ -123,7 +123,9 @@ add_executable(${PROJECT_NAME} main.cpp ${SOURCES}
         linii.cpp
         linii.h
         Joc.cpp
-        Joc.h)
+        Joc.h
+        verif.cpp
+        verif.h)
 
 ###############################################################################
 

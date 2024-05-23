@@ -7,15 +7,16 @@
 #include <iostream>
 #include "generaretablou.h"
 #include "linii.h"
+#include "verif.h"
 using namespace std;
 
-class Joc{
+class Joc : public verif{
 private:
     int suma;
     int miza;
 public:
 
-    Joc(int suma, int miza);
+    Joc(string a, int suma, int miza);
     ~Joc();
 
     Joc& operator=(const Joc& a);
