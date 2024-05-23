@@ -5,9 +5,9 @@
 #include "verif.h"
 #include <iostream>
 using namespace std;
-verif::verif(string str) : a(std::move(str)) {
+verif::verif(string str) : data(std::move(str)) {
 }
 string verif::verificare()
 {
-    return a;
+    return data;
 }

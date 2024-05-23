@@ -9,9 +9,9 @@
 using namespace std;
 class verif{
 private:
-    string a;
+    string data;
 public:
-    explicit verif(string a);
+    explicit verif(string str);
     string verificare();
     virtual ~verif() = default;
 };
