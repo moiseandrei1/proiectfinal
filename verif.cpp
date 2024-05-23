@@ -4,7 +4,6 @@
 
 #include "verif.h"
 #include <iostream>
-#include <utility>
 using namespace std;
 verif::verif(string str){
     this->a = std::move(str);
