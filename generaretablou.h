@@ -5,9 +5,9 @@
 using namespace std;
 
 class generaretablou{
-
-public:
+private:
     int v[4][6];
+public:
     int get2(int i, int j);
     void generare();
 };
