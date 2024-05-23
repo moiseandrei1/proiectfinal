@@ -39,8 +39,14 @@ void Joc::jocul(){
         string caracter;
         std::cin >> caracter;
         verif* st = new Joc(caracter, 1, 1);
+        int ok = 0;
         if(auto strverif = dynamic_cast<verif*>(st)) {
             caracter = strverif->verificare();
+            ok = 1;
+        }
+        delete st;
+        if(ok == 1)
+        {
             if (caracter == "miza") {
                 int y;
                 std::cin >> y;
@@ -173,6 +179,5 @@ void Joc::jocul(){
             std::cout << "Suma: " << suma << " " << "Castig " << plata << '\n';
             std::cout << '\n';
         }
-        delete st;
     }
 }
