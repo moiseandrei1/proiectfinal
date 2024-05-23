@@ -178,5 +178,6 @@ void Joc::jocul(){
             std::cout << "Suma: " << suma << " " << "Castig " << plata << '\n';
             std::cout << '\n';
         }
+        delete st;
     }
 }
