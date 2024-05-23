@@ -11,11 +11,6 @@ Joc::Joc(string a, int suma, int miza) : verif(std::move(a)) {
     this->suma = suma;
     this->miza = miza;
 }
-Joc::~Joc()
-{
-    suma = 0;
-    miza = 0;
-}
 
 Joc& Joc::operator=(const Joc& a) {
     if (this != &a) {

@@ -17,7 +17,6 @@ private:
 public:
 
     Joc(string a, int suma, int miza);
-    ~Joc();
 
     Joc& operator=(const Joc& a);
 
@@ -26,6 +25,7 @@ public:
     friend generaretablou;
     friend linii;
     void jocul();
+    ~Joc() = default;
 };
 
 
