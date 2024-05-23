@@ -13,7 +13,7 @@ private:
 public:
     explicit verif(string a);
     string verificare();
-    ~verif() = default;
+    virtual ~verif() = default;
 };
 
 #endif //OOP_VERIF_H
