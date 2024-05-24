@@ -43,7 +43,8 @@ int main() {
     }
     int suma2, miza2;
     std::cin >> suma2 >> miza2;
-    Joc a(std::string(), suma2, miza2);
+    std::string ss;// Create a verif object with ss
+    Joc a(ss, suma2, miza2);
     a.jocul();
     return 0;
 }
