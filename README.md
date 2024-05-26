@@ -6,11 +6,14 @@ In acest proiect am folosit 3 clase pentru a genera un panou aleatoriu, cele 10 
 
 
 Un exemplu ar fi
+
 :
 3
 
 1 2 3
+
 20 2
+
 
 j
 
