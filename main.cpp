@@ -56,15 +56,16 @@ public:
 };
 
 int main() {
-    std::cout << "Pentru a juca introduceti 2 inturi (suma initiala de bani, si miza pe care jucati), si pentru a genera un tabel nou\n";
+    std::cout << "Pentru a juca introduceti un numar de baconte, dupa aceea introduceti valorile bacnoterlor si miza,si pentru a genera un tabel nou\n";
     std::cout << "scrieti un caracter. Daca doriti sa schimbati miza scrieti 'miza' si dupa aceea numarul nou.\n";
     std::cout << "Pentru a opri jocul scrieti stop\n";
-    int n;
+    int n, suma2 = 0;
     cin >> n;
     for(int i = 1; i <= n; i ++)
     {
         int a;
         cin >> a;
+        suma2 = suma2 + a;
         mp[a] ++;
     }
     int cnt = 0;
@@ -87,8 +88,8 @@ int main() {
         else
             cout << " lei\n";
     }
-    int suma2, miza2;
-    std::cin >> suma2 >> miza2;
+    int miza2;
+    std::cin >> miza2;
     std::string ss;
     Jocc_builder b;
     Jocc c = b.ss(ss).suma(suma2).miza(miza2).build();
