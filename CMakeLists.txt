@@ -125,7 +125,10 @@ add_executable(${PROJECT_NAME} main.cpp ${SOURCES}
         Joc.cpp
         Joc.h
         verif.cpp
-        verif.h)
+        verif.h
+        generarenumar.h
+        prototip.h
+        factory.h)
 
 ###############################################################################
 
