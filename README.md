@@ -5,9 +5,9 @@ In acest proiect am folosit 3 clase pentru a genera un panou aleatoriu, cele 10 
 ![image](https://github.com/moiseandrei1/Proiect-oop/assets/163428609/392418ea-460e-4818-8c73-613d6075585b)
 
 
-Un exemplu ar fi
+Un exemplu ar fi:
 
-:
+
 3
 
 1 2 3
